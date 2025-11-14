@@ -1,0 +1,67 @@
+{
+  "name": "@nflverse/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types and constants for the nflverse ecosystem",
+  "keywords": [
+    "nfl",
+    "nflverse",
+    "typescript",
+    "types",
+    "football",
+    "sports"
+  ],
+  "homepage": "https://github.com/nflverse-ts/nflverse-types#readme",
+  "bugs": {
+    "url": "https://github.com/nflverse-ts/nflverse-types/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nflverse-ts/nflverse-types.git"
+  },
+  "license": "MIT",
+  "author": "Riel St. Amand <riel.stamand@gmail.com>",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "dev": "tsup --watch",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.2.5",
+    "rimraf": "^6.1.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "npm@10.5.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
