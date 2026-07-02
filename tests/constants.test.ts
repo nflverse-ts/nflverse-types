@@ -60,7 +60,7 @@ describe('Constants', () => {
 
   describe('HISTORICAL_TEAMS', () => {
     it('should include relocated teams', () => {
-      expect(HISTORICAL_TEAMS).toContain('SD');  // Now LAC
+      expect(HISTORICAL_TEAMS).toContain('SD'); // Now LAC
       expect(HISTORICAL_TEAMS).toContain('STL'); // Now LA
       expect(HISTORICAL_TEAMS).toContain('OAK'); // Now LV
     });

@@ -38,7 +38,7 @@ export const NFL_TEAMS: readonly Team[] = [
   // AFC East
   'BUF', // Buffalo Bills
   'MIA', // Miami Dolphins
-  'NE',  // New England Patriots
+  'NE', // New England Patriots
   'NYJ', // New York Jets
 
   // AFC North
@@ -55,8 +55,8 @@ export const NFL_TEAMS: readonly Team[] = [
 
   // AFC West
   'DEN', // Denver Broncos
-  'KC',  // Kansas City Chiefs
-  'LV',  // Las Vegas Raiders
+  'KC', // Kansas City Chiefs
+  'LV', // Las Vegas Raiders
   'LAC', // Los Angeles Chargers
 
   // NFC East
@@ -68,19 +68,19 @@ export const NFL_TEAMS: readonly Team[] = [
   // NFC North
   'CHI', // Chicago Bears
   'DET', // Detroit Lions
-  'GB',  // Green Bay Packers
+  'GB', // Green Bay Packers
   'MIN', // Minnesota Vikings
 
   // NFC South
   'ATL', // Atlanta Falcons
   'CAR', // Carolina Panthers
-  'NO',  // New Orleans Saints
-  'TB',  // Tampa Bay Buccaneers
+  'NO', // New Orleans Saints
+  'TB', // Tampa Bay Buccaneers
 
   // NFC West
   'ARI', // Arizona Cardinals
-  'LA',  // Los Angeles Rams
-  'SF',  // San Francisco 49ers
+  'LA', // Los Angeles Rams
+  'SF', // San Francisco 49ers
   'SEA', // Seattle Seahawks
 ] as const;
 
@@ -89,7 +89,7 @@ export const NFL_TEAMS: readonly Team[] = [
  * These teams no longer use these abbreviations but appear in historical data
  */
 export const HISTORICAL_TEAMS: readonly string[] = [
-  'SD',  // San Diego Chargers (now LAC - Los Angeles Chargers)
+  'SD', // San Diego Chargers (now LAC - Los Angeles Chargers)
   'STL', // St. Louis Rams (now LA - Los Angeles Rams)
   'OAK', // Oakland Raiders (now LV - Las Vegas Raiders)
 ] as const;

@@ -85,30 +85,30 @@ export type Division = 'East' | 'West' | 'North' | 'South';
  */
 export type Position =
   // Offense
-  | 'QB'  // Quarterback
-  | 'RB'  // Running Back
-  | 'FB'  // Fullback
-  | 'WR'  // Wide Receiver
-  | 'TE'  // Tight End
-  | 'OL'  // Offensive Line
-  | 'OT'  // Offensive Tackle
-  | 'OG'  // Offensive Guard
-  | 'C'   // Center
+  | 'QB' // Quarterback
+  | 'RB' // Running Back
+  | 'FB' // Fullback
+  | 'WR' // Wide Receiver
+  | 'TE' // Tight End
+  | 'OL' // Offensive Line
+  | 'OT' // Offensive Tackle
+  | 'OG' // Offensive Guard
+  | 'C' // Center
   // Defense
-  | 'DL'  // Defensive Line
-  | 'DE'  // Defensive End
-  | 'DT'  // Defensive Tackle
-  | 'NT'  // Nose Tackle
-  | 'LB'  // Linebacker
+  | 'DL' // Defensive Line
+  | 'DE' // Defensive End
+  | 'DT' // Defensive Tackle
+  | 'NT' // Nose Tackle
+  | 'LB' // Linebacker
   | 'ILB' // Inside Linebacker
   | 'OLB' // Outside Linebacker
   | 'MLB' // Middle Linebacker
-  | 'DB'  // Defensive Back
-  | 'CB'  // Cornerback
-  | 'S'   // Safety
-  | 'SS'  // Strong Safety
-  | 'FS'  // Free Safety
+  | 'DB' // Defensive Back
+  | 'CB' // Cornerback
+  | 'S' // Safety
+  | 'SS' // Strong Safety
+  | 'FS' // Free Safety
   // Special Teams
-  | 'K'   // Kicker
-  | 'P'   // Punter
+  | 'K' // Kicker
+  | 'P' // Punter
   | 'LS'; // Long Snapper
