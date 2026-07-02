@@ -54,7 +54,6 @@
     "validate": "npm run typecheck && npm run lint && npm run format:check && npm run test"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.31.0",
     "@types/node": "^24.0.0",
     "@typescript-eslint/eslint-plugin": "^8.46.4",
